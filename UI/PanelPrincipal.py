@@ -14,7 +14,7 @@ from PyQt5.QtCore import Qt
 class PanelPrincipal(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle("Mini ERP Empresarial")
+        self.setWindowTitle("ERP Empresarial")
         self.setMinimumSize(600, 500)
 
         self.setStyleSheet("""
